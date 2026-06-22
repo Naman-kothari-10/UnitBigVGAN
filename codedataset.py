@@ -198,7 +198,7 @@ class CodeDataset(torch.utils.data.Dataset):
 
         self.unit_file_path = unit_file_path
         self.utt2lang_filepath = utt2lang_filepath #espnet format
-        self.utt2f0_filepath = utt2f0_filepath # espnet format
+        # self.utt2f0_filepath = utt2f0_filepath # espnet format
         self.lang_ids_json = lang_ids_json       
         self.split = split
         
@@ -258,23 +258,23 @@ class CodeDataset(torch.utils.data.Dataset):
         if len(missing) > 0:
             raise ValueError(f"Missing unit entries for {len(missing)} utterances")
         
-        self.utt2f0_map = {}
-        if self.is_f0 and self.utt2f0_filepath:
-            with open(self.utt2f0_filepath, "r", encoding="utf-8") as f:
-                for line in f:
-                    parts = line.strip().split()
-                    utt_id = parts[0]
-                    self.utt2f0_map[utt_id] = parts[1]  # path to f0 npy file
+    #     self.utt2f0_map = {}
+    #     if self.is_f0 and self.utt2f0_filepath:
+    #         with open(self.utt2f0_filepath, "r", encoding="utf-8") as f:
+    #             for line in f:
+    #                 parts = line.strip().split()
+    #                 utt_id = parts[0]
+    #                 self.utt2f0_map[utt_id] = parts[1]  # path to f0 npy file
 
-    def _get_f0(self, utt_id):
-        """Retrieves F0 array using the pre-loaded map."""
-        if utt_id in self.utt2f0_map:
-            try:
-                return np.load(self.utt2f0_map[utt_id])
-            except Exception as e:
-                print(f"Error loading F0 for {utt_id}: {e}")
-                return None
-        return None
+    # def _get_f0(self, utt_id):
+    #     """Retrieves F0 array using the pre-loaded map."""
+    #     if utt_id in self.utt2f0_map:
+    #         try:
+    #             return np.load(self.utt2f0_map[utt_id])
+    #         except Exception as e:
+    #             print(f"Error loading F0 for {utt_id}: {e}")
+    #             return None
+    #     return None
 
     def __getitem__(self, index):
         try:

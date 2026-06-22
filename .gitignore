@@ -102,8 +102,13 @@ inference_outputs_cross_lingual_spk_mixing/
 inference_outputs_scp/
 lid_classifier_tests/
 logs/
+configs_codebigvgan/
+configs/
 lid_confusion_matrix.ipynb
-
+preprocess_pitch_mp.py
+preprocess_pitch.py
+train_scripts/
+inference_scripts/
 # IPython
 profile_default/
 ipython_config.py
