@@ -136,5 +136,3 @@ This project builds upon **BigVGAN**. We thank the BigVGAN authors for open sour
 - BigVGAN: A Universal Neural Vocoder with Large-Scale Generative Modeling
 - [BigVGAN Repository](https://github.com/NVIDIA/BigVGAN)
 ```
-
-
