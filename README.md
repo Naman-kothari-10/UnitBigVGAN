@@ -2,7 +2,7 @@
 
 #### Naman Kothari, Arjun Gangwar, Adarsh Arigala, S Umesh
 
-[[Paper]](https://arxiv.org/pdf/2606.06740) - [[Code]](https://github.com/Naman-kothari-10/UnitBigVGAN) 
+[[Paper]](https://arxiv.org/pdf/2606.06740) - [[Code]](https://github.com/Naman-kothari-10/UnitBigVGAN) - [[Models]](https://drive.google.com/drive/folders/1qnISRb49HwUQ6-c-ruCGiIj7LBKBJl1N?usp=sharing)
 
 
 
