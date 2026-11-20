@@ -1,0 +1,110 @@
+{
+  "Bengali": {
+    "Bengali_test_S4257002600301521_000012.wav": {
+      "v1_other_filename": "1407374883683163_chunk_7_enhanced.wav",
+      "similarity": 0.8523,
+      "dur_diff_sec": 0.006
+    },
+    "Bengali_test_S4257882300334430_000057.wav": {
+      "v1_other_filename": "1407374883612758_chunk_2_enhanced.wav",
+      "similarity": 0.8693,
+      "dur_diff_sec": 0.0011
+    },
+    "Bengali_test_S4258163400306361_000114.wav": {
+      "v1_other_filename": "1407374883636966_chunk_4_enhanced.wav",
+      "similarity": 0.8747,
+      "dur_diff_sec": 0.0161
+    },
+    "Bengali_test_S4258542700320684_000125.wav": {
+      "v1_other_filename": "1407374883555315_chunk_4_enhanced.wav",
+      "similarity": 0.8598,
+      "dur_diff_sec": 0.014
+    },
+    "Bengali_test_S4258708700360818_000140.wav": {
+      "v1_other_filename": "1407374883584567_chunk_5_enhanced.wav",
+      "similarity": 0.8648,
+      "dur_diff_sec": 0.004
+    }
+  },
+  "Hindi": {
+    "Hindi_test_S4256942400332561_000044.wav": {
+      "v1_other_filename": "5348024557736218_chunk_8_enhanced.wav",
+      "similarity": 0.8785,
+      "dur_diff_sec": 0.014
+    },
+    "Hindi_test_S4257120600367211_000052.wav": {
+      "v1_other_filename": "5348024557670138_chunk_4_enhanced.wav",
+      "similarity": 0.9094,
+      "dur_diff_sec": 0.0091
+    },
+    "Hindi_test_S4257120600367211_000071.wav": {
+      "v1_other_filename": "5348024557670131_chunk_6_enhanced.wav",
+      "similarity": 0.9067,
+      "dur_diff_sec": 0.0011
+    },
+    "Hindi_test_S4259703700319935_000279.wav": {
+      "v1_other_filename": "5348024557658959_chunk_3_enhanced.wav",
+      "similarity": 0.9052,
+      "dur_diff_sec": 0.0001
+    },
+    "Hindi_test_S4259920000308452_000346.wav": {
+      "v1_other_filename": "5348024557729904_chunk_6_enhanced.wav",
+      "similarity": 0.8981,
+      "dur_diff_sec": 0.0091
+    }
+  },
+  "Tamil": {
+    "Tamil_test_S4256620800339114_000015.wav": {
+      "v1_other_filename": "3096224744184519_chunk_75_enhanced.wav",
+      "similarity": 0.8838,
+      "dur_diff_sec": 0.0001
+    },
+    "Tamil_test_S4256620800339114_000016.wav": {
+      "v1_other_filename": "3096224744184519_chunk_101_enhanced.wav",
+      "similarity": 0.8764,
+      "dur_diff_sec": 0.0019
+    },
+    "Tamil_test_S4256730700334621_000047.wav": {
+      "v1_other_filename": "3096224744040948_chunk_1_enhanced.wav",
+      "similarity": 0.9079,
+      "dur_diff_sec": 0.0001
+    },
+    "Tamil_test_S4258842100383591_000111.wav": {
+      "v1_other_filename": "3096224744155568_chunk_5_enhanced.wav",
+      "similarity": 0.9136,
+      "dur_diff_sec": 0.003
+    },
+    "Tamil_test_S4259592300370250_000216.wav": {
+      "v1_other_filename": "3096224744228937_chunk_1_enhanced.wav",
+      "similarity": 0.901,
+      "dur_diff_sec": 0.004
+    }
+  },
+  "Telugu": {
+    "Telugu_test_S4256002300334350_000013.wav": {
+      "v1_other_filename": "4503599627470449_chunk_2_enhanced.wav",
+      "similarity": 0.9252,
+      "dur_diff_sec": 0.001
+    },
+    "Telugu_test_S4257679000359335_000119.wav": {
+      "v1_other_filename": "4503599627680184_chunk_28_enhanced.wav",
+      "similarity": 0.8719,
+      "dur_diff_sec": 0.014
+    },
+    "Telugu_test_S4259515300391399_000258.wav": {
+      "v1_other_filename": "4503599627407267_chunk_3_enhanced.wav",
+      "similarity": 0.8514,
+      "dur_diff_sec": 0.0081
+    },
+    "Telugu_test_S4259549500362090_000287.wav": {
+      "v1_other_filename": "4503599627625557_chunk_4_enhanced.wav",
+      "similarity": 0.8223,
+      "dur_diff_sec": 0.0051
+    },
+    "Telugu_test_S4259945600343262_000308.wav": {
+      "v1_other_filename": "4503599627499748_chunk_6_enhanced.wav",
+      "similarity": 0.9243,
+      "dur_diff_sec": 0.0161
+    }
+  }
+}
